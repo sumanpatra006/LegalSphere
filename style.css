@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,600;1,700&family=Roboto:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    color: #0a0c15;
+}
+
+a {
+    color: #0a0c15;
+    padding: 0.3rem 0.5rem;
+}
+
+.login a {
+    color: #e7e8ec;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.navitems {
+    background-color: #e7e8ec;
+    border-radius: 38px;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.items {
+    padding: 0rem 0.3rem;
+}
+
+.special {
+    background-color: #0a0c15;
+    color: #e7e8ec;
+    border-radius: 18px;
+}
+
+.list {
+    padding: 0.7rem 0.5rem;
+}
+
+.login {
+    margin: 0.2rem;
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 188px;
+    border: none;
+    color: #e7e8ec;
+    font-size: 1.2;
+    background-color: #592ef3;
+    cursor: pointer;
+}
+
+.name {
+    font-weight: 600;
+    font-size: large;
+}
+
+.maincontent {
+    margin: 13rem 10rem;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+
+.contenthead {
+    font-size: 2.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.contenthead::selection {
+    background-color: black;
+    color: white;
+}
+
+.hire {
+    padding: 0.8rem;
+    width: 12rem;
+    border: none;
+    color: #e7e8ec;
+    font-size: 1.2;
+    background-color: #592ef3;
+    border-radius: 28px;
+    margin: 2rem 0rem 1rem 0rem;
+}
+
+.card>img {
+    width: 25vw;
+}
+
+.card {
+    border: none;
+    max-width: 33.333%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 2rem;
+    margin-top: 0px;
+    background-color: white;
+
+}
+
+.lawyers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin: 5rem 0rem;
+    padding-top: 2rem;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 4px;
+    background: gray;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #592ef3;
+    border-radius: 10px;
+}
+
+.experience {
+    margin-top: 1.5rem;
+}
+
+.definitions {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin-top: 8rem;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 40%;
+    border: 1px solid rgb(174, 172, 172);
+    padding: 5rem;
+    background-color: #c6d6e3;
+}
+
+.box_heading {
+    margin-bottom: 2rem;
+}
+
+.build {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.build_content {
+    display: flex;
+    justify-content: center;
+    /* align-items: ; */
+    flex-wrap: wrap;
+    max-width: 70%;
+    margin-top: 5rem;
+}
+
+.contentbox {
+    width: 50%;
+    padding: 3rem;
+}
+
+.build_content>.contentbox>i {
+    font-size: 3rem;
+    margin-bottom: 0.8rem;
+}
+
+.contentbox>p {
+    margin-top: 1.2rem;
+}
+
+.hiring {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.hiringprocess {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.steps {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stephead {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.meettalent {
+    margin: 5rem;
+}
+
+.meettalent>h1 {
+    text-align: center;
+}
+
+.mtbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c6d6e3;
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.mtbox>i {
+    font-size: 3.5rem;
+}
+
+.mtbox>button {
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    color: #e7e8ec;
+    background-color: #592ef3;
+    border-radius: 28px;
+}
+
+.getstarted {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.getstarted>h1 {
+    font-weight: 500;
+}
+
+.getstarted>button {
+    padding: 0.8rem;
+    margin-top: 0.8rem;
+    border: none;
+    color: #e7e8ec;
+    background-color: #592ef3;
+    border-radius: 28px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 1.5rem;
+    margin: 3rem;
+    font-size: 2rem;
+    background-color: #c6d6e3;
+    color: white;
+}
+
+.ratings {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 3rem;
+    background-color: #e7e8ec;
+}
+
+.green {
+    color: rgb(8, 145, 8);
+
+}
+
+.ratingstars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.ratingstars>span {
+    margin: 0px 2rem;
+}
+
+.ratingstars>i {
+    font-size: 1.3rem;
+}
+
+.userratings {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem;
+    background-color: #e7e8ec;
+}
+
+.ratingreviews {
+    border: 2px solid white;
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 0rem 1.2rem;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.ratingreviews i {
+    font-size: 2rem;
+}
+
+.username {
+    margin-left: 1rem;
+}
+
+.faqs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    flex-direction: column;
+}
+
+.q_a {
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 1.2rem;
+    background-color: #d3d3d3;
+    margin: 0.3rem 0rem;
+    width: 85vw;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question i.active {
+    transform: rotate(180deg);
+}
+
+.answer.active {
+    max-height: fit-content;
+    transition: transform 1s ease;
+    padding-top: 1.2rem;
+}
