@@ -9,3 +9,20 @@ qabox.forEach(qa => {
         answer.classList.toggle('active');
     })
 });
+
+// firebase authentication 
+
+let userCreds = JSON.parse(sessionStorage.getItem("user-creds"));
+let userInfo = JSON.parse(sessionStorage.getItem("user-info"));
+
+
+let CheckCred = () => {
+    if (!sessionStorage.getItem("user-creds"))
+        window.location.href = 'login.html'
+
+    else {
+
+        let msgHEad = document.getElementById('msg');
+        msgHEad.innerText = `Welcome ${userInfo.firstname + " " + userInfo.lastname}!`;
+    }
+}
